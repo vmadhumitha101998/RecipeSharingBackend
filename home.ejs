@@ -1,0 +1,14 @@
+<h1 style="font-family: cursive;">The response is coming from home.EJS</h1>
+<p>Currently there are <%=data%> recipes in the Recipe table</p>
+<form method="POST" action="/register">
+<input type="text" name="std_title" class="form" placeholder="Enter Recipe Title">
+<input type="float" name="rate" class="form" placeholder="Enter Recipe Rating">
+Type:<select name="type">
+    <option value="Chinese">Chinese</option>
+    <option value="Indian">Indian</option>
+    <option value="Italian">Italian</option>
+    <option value="Mexican">Mexican</option>
+
+</select>
+<button>Submit</button>
+</form>
